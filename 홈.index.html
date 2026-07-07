@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장서연 토목 개인홈페이지</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold text-blue-700">Engineering Portfolio</span>
+            <div class="space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="https://padlet.com/deoyom0801/padlet-93uhhteeo63h131k" target="_blank" class="hover:text-blue-600 transition">Guestbook</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-20 px-6 text-center">
+        <h1 class="text-5xl font-bold mb-4">안녕하세요, <span class="text-blue-700">장서연</span>입니다.</h1>
+        <p class="text-xl text-slate-600 max-w-2xl mx-auto">건국대학교 사회환경공학부에서 지속 가능한 미래를 설계하고 있습니다.</p>
+    </header>
+
+    <section id="about" class="py-20 px-6 max-w-4xl mx-auto bg-white rounded-3xl shadow-sm">
+        <h2 class="text-3xl font-bold mb-8">About Me</h2>
+        <div class="grid md:grid-cols-2 gap-12">
+            <div>
+                <p class="leading-relaxed text-slate-700">
+                    건국대학교 사회환경공학부에서 토목, 환경, 도시 인프라 설계를 공부했습니다. 데이터 기반의 분석 역량과 CAD, GIS 활용 능력을 바탕으로 안전하고 효율적인 사회 기반 시설을 구축하는 엔지니어를 꿈꿉니다.
+                </p>
+            </div>
+            <div class="space-y-4">
+                <h3 class="font-semibold text-blue-700">Skills</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">AutoCAD</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">GIS</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Python</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">MATLAB</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Excel</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12">Key Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 hover:shadow-lg transition">
+                <h3 class="text-xl font-bold mb-2">교량 구조 설계 프로젝트</h3>
+                <p class="text-slate-600 mb-4">Opensees, Matlab를 활용한 내진설계 구조적 안정성 해석.</p>
+                <a href="#" class="text-blue-600 font-semibold hover:underline">상세보기 &rarr;</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 hover:shadow-lg transition">
+                <h3 class="text-xl font-bold mb-2">대한토목학회 토목 구조물 경진대회 대상</h3>
+                <p class="text-slate-600 mb-4">지형 데이터를 활용한 침수 시뮬레이션 및 방재 계획 수립. ArcGIS 기술 활용.</p>
+                <a href="#" class="text-blue-600 font-semibold hover:underline">상세보기 &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-20 bg-slate-900 text-white text-center">
+        <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
+        <p class="mb-8">언제든지 연락해 주세요.</p>
+        <div class="flex justify-center gap-6">
+            <a href="mailto:email@example.com" class="hover:text-blue-400">Email</a>
+            <a href="#" class="hover:text-blue-400">LinkedIn</a>
+            <a href="#" class="hover:text-blue-400">GitHub</a>
+        </div>
+        <p class="mt-12 text-slate-500 text-sm">© 2026. 건국대학교 사회환경공학부 장서연.</p>
+    </footer>
+
+</body>
+</html>
